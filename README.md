@@ -147,11 +147,14 @@ tra : 주장 강간범을 포함하여 다섯 사람은, 인도 경찰 say.Rape�
 -100.0 주장 강간범을 포함하여 다섯 사람은, 인도 경찰 say.Rape 과 여성에 대한 성폭력은 수도 델 리에서 버스에서 젊은 여자의 12 월 2012 년 집단 강간과 살인 이후 인도의 초점이 되었습니다
 0 체포되었다.
 -99.983857384359 별도로, 금요일에, 인도 경찰은 강간과 하이 데 라 바 드의 남부 도시 지난 주에 젊은 여성 수의사를 살해 한 혐의 죽은 네 사람을 쐈다.***
-
+#
+#
+# **Server**
 ![SUM](https://github.com/Seungup/NASA/blob/master/2019-11-12-%EC%84%9C%EB%B2%84-%EB%B2%88%EC%97%AD%EA%B8%B0%EB%8A%A5-%EC%8B%9C%ED%98%84.png)
 ![SUM](https://github.com/Seungup/NASA/blob/master/2019-11-21-%EC%84%9C%EB%B2%84-%EB%B0%8F-%EC%9B%B9-%EA%B5%AC%EB%8F%99%EC%8B%9C%ED%98%84.png)
-
-**client** 
+#
+#
+# **client** 
 ![SUM](https://github.com/Seungup/NASA/blob/master/2019_11_24_Cpp_%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%8B%9C%EC%97%B0.png)
 #
 #
