@@ -7,6 +7,9 @@
 
 # Before using TODO
 
+**Client is will be work MS Visual Studio 2019**
+
+
 **/Server/CPP_Server/Bin/server_model.py** file there are absolute path
 
 ```python
@@ -170,3 +173,4 @@ with open('wdata.p', 'wb') as file:
  The file currently uploaded is already pre-processed. And if you want to make a new **model.h** file 
  [Here is the Orignal Data Sets link](https://github.com/e9t/nsmc/)
  
+Model Source code is built on this [site](https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html)
