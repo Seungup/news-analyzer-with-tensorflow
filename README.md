@@ -31,7 +31,7 @@ class CppAssignment:
             self.text = text
 ```
 
-and check it out the PATH of the file **wdata.p** location
+and check it out the PATH of the **wdata.p** file location
 
 ```python
 with open('d:/UNIV/Python_Project/University/CPP_Server/Bin/wdata.p', 'rb') as file:
