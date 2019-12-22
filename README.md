@@ -7,7 +7,7 @@
 
 # Before using TODO
 
-**Client is will be work MS Visual Studio 2019**
+##!!**C++ Client is will be work MS Visual Studio 2019**
 
 
 **/Server/CPP_Server/Bin/server_model.py** file there are absolute path
