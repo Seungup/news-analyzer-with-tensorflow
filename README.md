@@ -168,7 +168,8 @@ tra : 주장 강간범을 포함하여 다섯 사람은, 인도 경찰 say.Rape�
 
 ## ( Traning Set : Test Set ) : ( 0.7 : 0.3 )
 Due to my lack of memory management ability, weight file was saved and imported separately as binary file.
-That file : ./Server/CPP_Server/Bin/wdata.p 
+
+That file : **./Server/CPP_Server/Bin/wdata.p**
 is can open like this follow
 
 ```python
