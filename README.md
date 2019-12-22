@@ -1,7 +1,7 @@
 # **Before entering, It is designed for university assignments.**
 
 # Summary
-
+[chart](https://github.com/Seungup/NASA/blob/master/follow.png)
 ## The program automatically parses, summarizes, translates, and analyzes links to news articles on the client.
 ### Here is the [Demo Video](https://www.youtube.com/watch?v=oADv6G2cCwk) for you The server is connected through [ngrok](https://ngrok.com/).
 
