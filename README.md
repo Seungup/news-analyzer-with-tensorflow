@@ -42,40 +42,7 @@ def hello_user(data):
         if source != 'ko':
             print("[use google translator]")
             text = translator.translate(data, dest='ko').text # if you want to use Papago API just fix this code
-            print("ori :", data[0:50])
-            print("tra :", text[0:50])
-            sentence_data = libray.KoNLPy(text).sentence()
-            data_pn_score = []
-            obj = [0]
-            for i in range(len(sentence_data)):
-                if len(sentence_data[i]) < 21:
-                    score = 0
-                    tf = 0
-                else:
-                    _, score, tf = libray.model().text(sentence_data[i])
-                    data_pn_score.append(libray.model().text(sentence_data[i])[1:])
-                    #tf == 1 부정
-
-                if tf == 1:
-                    obj.append(-score)
-                else:
-                    obj.append(score)
-
-            print("\n총 점수 : ",round(int(sum(obj)) / len(obj), 1))
-
-            for i in range(len(sentence_data)):
-                print(obj[i+1], sentence_data[i])
-
-            if int(sum(obj)) < 0:
-                tf = "Negative"
-            elif(int(sum(obj)) == 0):
-                tf = "neutral"
-            else:
-                tf = "Positive"
-
-
-            a = f"""[{str(tf)} : {str(round(int(sum(obj)) / len(obj), 1))}] ************** {str(text)}"""
-            return a
+        ...
 ```
 
 # Server Result
