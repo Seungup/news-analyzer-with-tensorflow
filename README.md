@@ -13,7 +13,7 @@
 
 **/Server/CPP_Server/Bin/Lib.py** if you want automatic translation you must singup [Naver Develpoment](https://developers.naver.com/main/) 
 
-### **Fortunately, I used Google translation API for you without Papago API key.** So, Papago API Key is Option
+### Papago API Key is Not Option Please fill in this section
 
 ```python
 class CppAssignment:
