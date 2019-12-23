@@ -7,38 +7,13 @@
 
 # Before using TODO
 
+## ngork http 5000 
+
 ## **C++ Client is will be work MS Visual Studio 2019**
 
+**/Server/CPP_Server/Bin/Lib.py** if you want to start this program you need Papago API in here [Naver Develpoment](https://developers.naver.com/main/) 
 
-**/Server/CPP_Server/Bin/server_model.py** file there are absolute path
-
-```python
-model = keras.models.load_model('d:/UNIV/Python_Project/University/CPP_Server/Bin/model.h5')
-```
-
-**/Server/CPP_Server/Bin/Lib.py** if you want automatic translation you must singup [Naver Develpoment](https://developers.naver.com/main/) 
-
-### **Fortunately, I used Google translation API for you without Papago API key.** So, Papago API Key is Option
-
-```python
-class CppAssignment:
-    
-    class Papago:
-        
-        def __init__(self, text, papago_id = 'your Client ID', papago_secret = 'your Client Secret'):
-            self.papago_id = papago_id
-            self.papago_secret = papago_secret
-            self.text = text
-```
-
-and check it out the PATH of the **wdata.p** file location
-
-```python
-with open('d:/UNIV/Python_Project/University/CPP_Server/Bin/wdata.p', 'rb') as file:
-    selected_words = pickle.load(file)
-```
-
-and also **/Server/CPP_Server/Bin/server_bin.py /** file too
+### Papago API Key is Not Option Please fill in this section
 
 ```python
 class CppAssignment:
@@ -58,47 +33,16 @@ file PATH : **/Server/CPP_Server/Server.ipynb**
 ```python
 @app.route('/input/<data>')
 def hello_user(data):
+
 ...
-# <--Papago API Section-->
+# <--Papago API Get Langage Section-->
 ...
+
     try:
         if source != 'ko':
             print("[use google translator]")
-            text = translator.translate(data, dest='ko').text
-            print("ori :", data[0:50])
-            print("tra :", text[0:50])
-            sentence_data = libray.KoNLPy(text).sentence()
-            data_pn_score = []
-            obj = [0]
-            for i in range(len(sentence_data)):
-                if len(sentence_data[i]) < 21:
-                    score = 0
-                    tf = 0
-                else:
-                    _, score, tf = libray.model().text(sentence_data[i])
-                    data_pn_score.append(libray.model().text(sentence_data[i])[1:])
-                    #tf == 1 부정
-
-                if tf == 1:
-                    obj.append(-score)
-                else:
-                    obj.append(score)
-
-            print("\n총 점수 : ",round(int(sum(obj)) / len(obj), 1))
-
-            for i in range(len(sentence_data)):
-                print(obj[i+1], sentence_data[i])
-
-            if int(sum(obj)) < 0:
-                tf = "Negative"
-            elif(int(sum(obj)) == 0):
-                tf = "neutral"
-            else:
-                tf = "Positive"
-
-
-            a = f"""[{str(tf)} : {str(round(int(sum(obj)) / len(obj), 1))}] ************** {str(text)}"""
-            return a
+            text = translator.translate(data, dest='ko').text # if you want to use Papago API just fix this code
+        ...
 ```
 
 # Server Result
@@ -137,14 +81,6 @@ tra : 주장 강간범을 포함하여 다섯 사람은, 인도 경찰 say.Rape�
 ## ( Traning Set : Test Set ) : ( 0.7 : 0.3 )
 Due to my lack of memory management ability, weight file was saved and imported separately as binary file.
 
-That file : **./Server/CPP_Server/Bin/wdata.p**
-is can open like this follow
-
-```python
-import pickle
-with open('wdata.p', 'wb') as file:
-    pickle.dump(selected_words, file)
-```
  The file currently uploaded is already pre-processed. And if you want to make a new **model.h** file 
  [Here is the Orignal Data Sets link](https://github.com/e9t/nsmc/)
  
