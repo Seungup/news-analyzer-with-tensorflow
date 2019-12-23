@@ -1,6 +1,7 @@
 
-# Summary#
-![NN](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/NN.png)**It is designed for university assignments.**
+# Summary
+# **It is designed for university assignments.**
+![NN](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/NN.png)
 ![chart](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/follow.png)
 ## The program automatically parses, summarizes, translates, and analyzes links to news articles on the client.
 ### Here is the [Demo Video](https://www.youtube.com/watch?v=oADv6G2cCwk) for you The server is connected through [ngrok](https://ngrok.com/).
