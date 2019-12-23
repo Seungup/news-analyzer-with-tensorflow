@@ -11,7 +11,7 @@
 
 ## **C++ Client is will be work MS Visual Studio 2019**
 
-**/Server/CPP_Server/Bin/Lib.py** if you want automatic translation you must singup [Naver Develpoment](https://developers.naver.com/main/) 
+**/Server/CPP_Server/Bin/Lib.py** if you want to start this program you need Papago API in here [Naver Develpoment](https://developers.naver.com/main/) 
 
 ### Papago API Key is Not Option Please fill in this section
 
