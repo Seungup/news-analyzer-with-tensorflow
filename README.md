@@ -11,21 +11,6 @@
 
 ## **C++ Client is will be work MS Visual Studio 2019**
 
-**/Server/CPP_Server/Bin/Lib.py** if you want to start this program you need Papago API in here [Naver Develpoment](https://developers.naver.com/main/) 
-
-### Papago API Key is Not Option Please fill in this section
-
-```python
-class CppAssignment:
-    
-    class Papago:
-        
-        def __init__(self, text, papago_id = 'your Client ID', papago_secret = 'your Client Secret'):
-            self.papago_id = papago_id
-            self.papago_secret = papago_secret
-            self.text = text
-```
-
 # If you want Papago API then replace this section.
 
 file PATH : **/Server/CPP_Server/Server.ipynb**
