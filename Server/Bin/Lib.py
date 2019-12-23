@@ -13,12 +13,18 @@ import urllib.request
 import json
 import re
 import server_model
+import PapagoKey
 
+try:
+    papago_id, papago_pw = PapagoKey.GetPapagoApiKey()
+except TypeError:
+    papago_id, papago_pw = PapagoKey.GetPapagoApiKey()
+    
 class CppAssignment:
     
     class Papago:
         
-        def __init__(self, text, papago_id = 'HuA_wT4ehgG82Bo3mWct', papago_secret = 'YJ8zMly9WN'):
+        def __init__(self, text, papago_id = papago_id, papago_secret = papago_pw):
             self.papago_id = papago_id
             self.papago_secret = papago_secret
             self.text = text
