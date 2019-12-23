@@ -9,13 +9,6 @@
 
 ## **C++ Client is will be work MS Visual Studio 2019**
 
-
-**/Server/CPP_Server/Bin/server_model.py** file there are absolute path
-
-```python
-model = keras.models.load_model('d:/UNIV/Python_Project/University/CPP_Server/Bin/model.h5')
-```
-
 **/Server/CPP_Server/Bin/Lib.py** if you want automatic translation you must singup [Naver Develpoment](https://developers.naver.com/main/) 
 
 ### **Fortunately, I used Google translation API for you without Papago API key.** So, Papago API Key is Option
