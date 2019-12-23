@@ -7,6 +7,8 @@
 
 # Before using TODO
 
+## ngork http 5000 
+
 ## **C++ Client is will be work MS Visual Studio 2019**
 
 **/Server/CPP_Server/Bin/Lib.py** if you want automatic translation you must singup [Naver Develpoment](https://developers.naver.com/main/) 
