@@ -29,30 +29,6 @@ def hello_user(data):
             text = translator.translate(data, dest='ko').text # if you want to use Papago API just fix this code
         ...
 ```
-
-# Server Result
-***127.0.0.1 - - [08/Dec/2019 05:31:25] "GET / HTTP/1.1" 200 -
-URL : https://www.bbc.com/news/world-asia-india-50697139
-SUMM : Five men, including the alleged rapists, have been
-SOURCE : en
-[use google translator]
-ori : Five men, including the alleged rapists, have been...
-tra : 주장 강간범을 포함하여 다섯 사람은, 인도 경찰 say.Rape과 여성에 대한 성폭력은 수...***
-
-***127.0.0.1 - - [08/Dec/2019 05:31:36] "GET /input/https%3A%7C%7Cwww.bbc.com%7Cnews%7Cworld-asia-india-50697139 HTTP/1.1" 200 -
-총 점수 :  -49.8
--100.0 주장 강간범을 포함하여 다섯 사람은, 인도 경찰 say.Rape 과 여성에 대한 성폭력은 수도 델 리에서 버스에서 젊은 여자의 12 월 2012 년 집단 강간과 살인 이후 인도의 초점이 되었습니다
-0 체포되었다.
--99.983857384359 별도로, 금요일에, 인도 경찰은 강간과 하이 데 라 바 드의 남부 도시 지난 주에 젊은 여성 수의사를 살해 한 혐의 죽은 네 사람을 쐈다.***
-#
-#
-# **Server**
-#
-#
-# **client** 
-![SUM](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/2019_11_24_Cpp_%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%8B%9C%EC%97%B0.png)
-#
-#
 # How it Works?
 
 ![NN](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/NN.png)
