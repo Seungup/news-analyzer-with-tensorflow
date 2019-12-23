@@ -56,7 +56,7 @@ class CppAssignment:
 file PATH : **/Server/CPP_Server/Server.ipynb**
 
 ```python
-@app.route('/input/<data>')  # URL뒤에 <>을 이용해 가변 경로를 적는다
+@app.route('/input/<data>')
 def hello_user(data):
 ...
 # <--Papago API Section-->
