@@ -1,7 +1,7 @@
 # **It is designed for university assignments.**
 
 # Summary
-![chart](https://github.com/Seungup/NASA/blob/master/follow.png)
+![chart](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/follow.png)
 ## The program automatically parses, summarizes, translates, and analyzes links to news articles on the client.
 ### Here is the [Demo Video](https://www.youtube.com/watch?v=oADv6G2cCwk) for you The server is connected through [ngrok](https://ngrok.com/).
 
@@ -62,17 +62,17 @@ tra : 주장 강간범을 포함하여 다섯 사람은, 인도 경찰 say.Rape�
 #
 #
 # **Server**
-![SUM](https://github.com/Seungup/NASA/blob/master/2019-11-12-%EC%84%9C%EB%B2%84-%EB%B2%88%EC%97%AD%EA%B8%B0%EB%8A%A5-%EC%8B%9C%ED%98%84.png)
-![SUM](https://github.com/Seungup/NASA/blob/master/2019-11-21-%EC%84%9C%EB%B2%84-%EB%B0%8F-%EC%9B%B9-%EA%B5%AC%EB%8F%99%EC%8B%9C%ED%98%84.png)
+![SUM](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/2019-11-12-%EC%84%9C%EB%B2%84-%EB%B2%88%EC%97%AD%EA%B8%B0%EB%8A%A5-%EC%8B%9C%ED%98%84.png)
+![SUM](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/2019-11-21-%EC%84%9C%EB%B2%84-%EB%B0%8F-%EC%9B%B9-%EA%B5%AC%EB%8F%99%EC%8B%9C%ED%98%84.png)
 #
 #
 # **client** 
-![SUM](https://github.com/Seungup/NASA/blob/master/2019_11_24_Cpp_%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%8B%9C%EC%97%B0.png)
+![SUM](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/2019_11_24_Cpp_%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%8B%9C%EC%97%B0.png)
 #
 #
 # How it Works?
 
-![NN](https://github.com/Seungup/NASA/blob/master/NN.png)
+![NN](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/NN.png)
 
 # Data Sets
 
