@@ -1,33 +1,24 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from konlpy.tag import Okt
 from tensorflow import keras
 import pickle
 import numpy as np
+import os
+
 okt = Okt()
+nowDir = os.getcwd()
+modelPATH = nowDir + '\\Bin\\model.h5'
+wdataPATH = nowDir + '\\Bin\\wdata.p'
 
-model = keras.models.load_model('d:/UNIV/Python_Project/University/CPP_Server/Bin/model.h5')
-
-
-# In[2]:
-
-
-with open('d:/UNIV/Python_Project/University/CPP_Server/Bin/wdata.p', 'rb') as file:
-    selected_words = pickle.load(file)
+model = keras.models.load_model(modelPATH)
     
+with open(wdataPATH, 'rb') as file:
+    selected_words = pickle.load(file)
+
 def tokenize(doc):
     return ['/'.join(t) for t in okt.pos(doc, norm=True, stem=True)]
 
 def term_frequency(doc):
     return [doc.count(word) for word in selected_words]
-
-
-# In[6]:
-
 
 def predict_pos_neg(review):
     token = tokenize(review)

@@ -12,22 +12,13 @@ import os, sys
 import urllib.request
 import json
 import re
-import server_bin
 import server_model
-
-
-# In[2]:
-
-
-execute = server_bin.CppAssignment()
-news = execute.Newspaper()
-
 
 class CppAssignment:
     
     class Papago:
         
-        def __init__(self, text, papago_id = 'HuA_wT4ehgG82Bo3mWct', papago_secret = 'KDtf1qSTnW'):
+        def __init__(self, text, papago_id = 'HuA_wT4ehgG82Bo3mWct', papago_secret = 'YJ8zMly9WN'):
             self.papago_id = papago_id
             self.papago_secret = papago_secret
             self.text = text
