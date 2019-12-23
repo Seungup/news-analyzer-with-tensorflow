@@ -47,8 +47,6 @@ tra : 주장 강간범을 포함하여 다섯 사람은, 인도 경찰 say.Rape�
 #
 #
 # **Server**
-![SUM](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/2019-11-12-%EC%84%9C%EB%B2%84-%EB%B2%88%EC%97%AD%EA%B8%B0%EB%8A%A5-%EC%8B%9C%ED%98%84.png)
-![SUM](https://github.com/Seungup/news-analyzer-with-tensorflow/blob/master/PNG/2019-11-21-%EC%84%9C%EB%B2%84-%EB%B0%8F-%EC%9B%B9-%EA%B5%AC%EB%8F%99%EC%8B%9C%ED%98%84.png)
 #
 #
 # **client** 
