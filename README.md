@@ -51,48 +51,16 @@ class CppAssignment:
             self.text = text
 ```
 
-# If you don't like the translation method, please correct the code here.
+# If you want Papago API then replace this section.
 
 file PATH : **/Server/CPP_Server/Server.ipynb**
 
 ```python
 @app.route('/input/<data>')  # URL뒤에 <>을 이용해 가변 경로를 적는다
 def hello_user(data):
-    data = data.replace('%3A', ':')
-    #data = data.replace('%3F', '?')
-    url = data.replace('|', '/')
-    print("URL :", url)
-    try:
-        data = news.Newspaper(url=url, language="ko")
-        if len(data) == 0:
-            data = news.Newspaper(url=url, language="en")
-            if len(data) == 0:
-                data = news.Newspaper(url=url, language="ja")
-                if len(data) == 0:
-                    data = news.Newspaper(url=url, language="zh")
-                    print("SUMM :",data[0:50])
-                    getSource = data[0:50]
-                    source = libray.Papago(text=getSource).GetLangage()
-                    print("SOURCE :", source)
-                else:
-                    print("SUMM :",data[0:50])
-                    getSource = data[0:50]
-                    source = libray.Papago(text=getSource).GetLangage()
-                    print("SOURCE :", source)
-            else:
-                print("SUMM :",data[0:50])
-                getSource = data[0:50]
-                source = libray.Papago(text=getSource).GetLangage()
-                print("SOURCE :", source)
-        else:
-            print("SUMM :",data[0:50])
-            getSource = data[0:50]
-            source = libray.Papago(text=getSource).GetLangage()
-            print("SOURCE :", source)
-    except:
-        return f"[ERROR] CANT SUMMARY PLEASE CHECK THIS PAGE : {url}"
-    
-    
+...
+# <--Papago API Section-->
+...
     try:
         if source != 'ko':
             print("[use google translator]")
