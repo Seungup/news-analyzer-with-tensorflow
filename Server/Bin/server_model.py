@@ -6,8 +6,8 @@ import os
 
 okt = Okt()
 nowDir = os.getcwd()
-modelPATH = nowDir + '\\model.h5'
-wdataPATH = nowDir + '\\wdata.p'
+modelPATH = nowDir + '\\Bin\\model.h5'
+wdataPATH = nowDir + '\\Bin\\wdata.p'
 
 model = keras.models.load_model(modelPATH)
     
