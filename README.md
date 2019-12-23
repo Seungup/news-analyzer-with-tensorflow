@@ -1,4 +1,4 @@
-# **It is designed for university assignments. However, the accuracy rate is 83 percent, which is good in its own way.**
+# **It is designed for university assignments.**
 
 # Summary
 ![chart](https://github.com/Seungup/NASA/blob/master/follow.png)
