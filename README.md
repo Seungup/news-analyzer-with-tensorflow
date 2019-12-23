@@ -33,13 +33,15 @@ file PATH : **/Server/CPP_Server/Server.ipynb**
 ```python
 @app.route('/input/<data>')
 def hello_user(data):
+
 ...
-# <--Papago API Section-->
+# <--Papago API Get Langage Section-->
 ...
+
     try:
         if source != 'ko':
             print("[use google translator]")
-            text = translator.translate(data, dest='ko').text
+            text = translator.translate(data, dest='ko').text # if you want to use Papago API just fix this code
             print("ori :", data[0:50])
             print("tra :", text[0:50])
             sentence_data = libray.KoNLPy(text).sentence()
